@@ -1,0 +1,11 @@
+{% for node in site.pages %}
+ {% if page.url == node.url %}
+    {% if node.title %}
+      <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+    {% endif %}
+ {% else %}
+    {% if node.title %}
+    <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
+ {% endif %}
+{% endfor %}    

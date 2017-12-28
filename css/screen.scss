@@ -1,0 +1,259 @@
+---
+---
+
+// variables
+
+$baseline:  12px;
+
+$gray:      #666;
+$blue:      #3fb4ff;
+
+$header-font: 'Istok Web', sans-serif;
+$body-font:   'Open Sans', sans-serif;
+
+// apply a natural box layout model to all elements, but allowing components to change
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.25rem;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// basics & type
+body {
+  color: $gray;
+  font-family: $body-font;
+  padding: 0 $baseline $baseline;
+  max-width: 980px;
+  margin: 0 auto;  
+}
+
+h1, h2, h3, h4 {
+  font-family: $header-font;
+  margin: 0 0 $baseline;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 $baseline 0;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+// header
+header {
+  margin: $baseline * 3 0;
+
+  img {
+    width: 50%;
+    max-width: 180px;
+  }
+}
+
+// nav
+nav {
+  overflow: auto;
+  font-weight: bold;
+  margin: $baseline 0;
+
+  ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      float: right;
+      // text-transform: uppercase;
+      margin-right: $baseline * 2;
+    }
+  }
+
+  a {
+    color: rgba($blue,.5);
+    text-decoration: none;
+    transition: all .3s linear;
+
+    &.active, &:hover, &:active {
+      color: $blue;
+    }
+  }
+}
+
+// content
+ .col {
+    margin-bottom: $baseline * 3;
+    max-width: 640px;
+    overflow: auto;
+
+    > section {
+      margin-bottom: $baseline * 2;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    ul {
+      font-size: 80%;
+      margin: 0 0 $baseline * 2;
+
+      li {
+        margin-bottom: $baseline / 2;
+      }      
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    .clients {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      
+      li {      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;                
+        width: 100%;
+        text-align: center;
+        padding: 0 $baseline * 3 0 0;
+        
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      
+      img {      
+        width: 40%;
+        max-width: 180px;
+      }
+    }
+  }
+
+
+// footer
+footer {
+  clear: both;
+  border-top: 1px solid rgba($gray, .25);
+  padding: $baseline * 2 0;
+  margin-top: $baseline * 2;
+
+  small {
+    display: block;
+    clear: both;
+  }
+
+  .col {
+    .contact {
+      color: $blue;
+      font-size: 90%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: $baseline * 2;      
+      
+      .social-icons img {
+        width: 20px;
+      }
+
+      li:last-child, &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .material-icons {
+    position: relative;
+    top: 6px;
+    margin-right: $baseline;
+  }
+  
+  .social-icons {    
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 0px;
+    margin-right: $baseline;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4px;
+  }
+}
+
+// media queries/responsive
+@media screen and (min-width: 640px){
+  html{
+    font-size: 1.3rem;
+  }
+  body {
+      padding: 0 $baseline * 2 $baseline * 2;
+  }
+  header {
+    overflow: auto;
+    margin: $baseline * 4 0;
+    img {
+      float: left;
+      max-width: 240px;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 82px;
+      margin: 0;
+      float: right;
+    }
+  }
+  .contact {
+    width: 50%;
+    float: left;
+  }
+
+  footer {
+    .col {
+      margin-bottom: 0;
+    }
+  }  
+  .col {
+    .clients {
+      li {      
+        float: left;
+        width: 33%;        
+      }
+      img {      
+        width: 100%;
+      }      
+    }
+  }
+}
+
+@media screen and (min-width: 760px){
+  header {
+    margin: $baseline * 4 0;
+    img {
+      max-width: 280px;
+    }
+    nav {
+      height: 96px;
+    }
+  }
+}
+
+
