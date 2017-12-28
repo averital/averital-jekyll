@@ -34,6 +34,298 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/javascript\/anchor-js\/.eslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/.eslintrc",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/.gitattributes",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/.npmignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/.npmignore",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/.travis.yml",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/anchor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/anchor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/javascript\/anchor-js\/anchor.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/anchor.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/javascript\/anchor-js\/banner.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/banner-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/anchor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/anchor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/favicon.ico",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.eot",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.ttf",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.woff",
+		"oF": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/fonts\/fonts.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/fonts\/fonts-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/grunticon\/grunticon.loader.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/grunticon\/grunticon.loader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.png.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.png-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.svg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.svg-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.fallback.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.fallback-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/grunticon\/png\/grunticon-link.png": {
+		"ft": 32768,
+		"iS": 499,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/grunticon\/png\/grunticon-link.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/anchoring-links.png": {
+		"ft": 32768,
+		"iS": 33647,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/anchoring-links.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/anchorjs_logo.png": {
+		"ft": 32768,
+		"iS": 7581,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/anchorjs_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/anchorlinks2.png": {
+		"ft": 32768,
+		"iS": 62031,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/anchorlinks2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/gh-link.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/gh-link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/gh_link.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/gh_link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/hyperlink.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/hyperlink.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/link.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/mini-logo.png": {
+		"ft": 32768,
+		"iS": 2259,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/mini-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/img\/primer-md.png": {
+		"ft": 32768,
+		"iS": 16739,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/img\/primer-md.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/javascript\/anchor-js\/docs\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/javascript\/anchor-js\/docs\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/screen-min.css": {
 		"aP": 1,
 		"bl": 0,
