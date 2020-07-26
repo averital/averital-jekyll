@@ -18,7 +18,6 @@ layout: default
   <h3>Our Clients</h3>
   <ul class="clients">
     <li><img alt="oreilly logo" src="img/client_logos/oreilly.png" /></li>
-    <li><img alt="datacamp logo" src="img/client_logos/datacamp.png" /></li>
     <li><img alt="elocal logo" src="img/client_logos/elocal.png" /></li>
   </ul>
 
